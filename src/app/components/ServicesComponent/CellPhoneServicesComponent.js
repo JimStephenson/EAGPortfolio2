@@ -8,11 +8,11 @@ export default function CellPhoneServicesComponent() {
       {AboutData.map((obj, index) => (
         <div
           key={index}
-          className=" mt-10 mb-20  bg-white border border-gray-200 rounded-lg shadow-md "
+          className=" mt-10 mb-0 lg:mb-0 bg-white border border-gray-200 rounded-lg shadow-md "
           style={{ boxShadow: "#395A68 -10px 25px 50px 10px" }}
         >
           <h2
-            className=" font-[300] text-center md:text-start text-[#395A68] text-2xl mt-10 md:ml-20"
+            className="  text-center md:text-start font-bold text-[#395A68] text-2xl mt-10 md:ml-20"
             style={{ fontFamily: "Optima" }}
           >
             {/* { "(" + obj.count + ") " + obj.title} */}
@@ -20,7 +20,7 @@ export default function CellPhoneServicesComponent() {
           </h2>
 
           <p
-            className=" font-[300] text-center md:text-start text-[#395A68] text-xl mt-10 md:ml-20"
+            className="  text-center md:text-start text-[#395A68] text-xl mt-10 md:ml-20"
             style={{ fontFamily: "Optima" }}
           >
             {obj.description}

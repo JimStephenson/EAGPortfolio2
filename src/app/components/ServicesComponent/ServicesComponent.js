@@ -13,11 +13,11 @@ export default function ServicesComponent() {
       <div
         id="services"
        
-         className=" pt-[50px] md:pt-[100px]   h-fit   relative ">
-        <div className="container mb-30 justify-center pb-40 p-20">
+         className=" pt-[3rem] md:pt-[7rem]   h-fit   relative ">
+        <div className="container  justify-center pb-[2.5rem] p-5 md:p-20">
          
-          <h1 className="relative text-5xl text-center text-[#395A68] -mt-50 " style={{ fontFamily: "Optima" }}>
-            Services we offer
+          <h1 className="relative font-bold text-5xl lg:text-4xl 2xl:text-5xl text-center text-[#395A68] -mt-[3rem] lg:-mt-[6rem] " style={{ fontFamily: "Optima" }}>
+            Services
           </h1>
           <CellPhoneServicesComponent  />
           <NonCellphoneServicesComponent />

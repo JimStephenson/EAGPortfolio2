@@ -93,12 +93,12 @@ export default function Page() {
          
 
             <div className="-mt-[10px]">
-              <h1 className="-mt-10 text-3xl text-[#9aabb2] p-5 text-center tracking-wide" style={{ fontFamily: "Optima" }}>
+              <h1 className="-mt-10 text-3xl lg:text-2xl 2xl:text-3xl text-[#9aabb2] p-5 text-center tracking-wide" style={{ fontFamily: "Optima" }}>
                 Got a Problem you need Solving?
               </h1>
             </div>
             {/* <div className="flex justify-center text-center mt-[10px] md:w-[700px]"> */}
-              <p className="text-[#9aabb2] font-[300] p-5 text-center text-xl" style={{ fontFamily: "Optima" }}>
+              <p className="text-[#9aabb2] lg:text-lg 2xl:text-2xl p-5 mb-5 text-center text-xl" style={{ fontFamily: "Optima" }}>
                 We are good at solving problems, and our solutions are top rate.
                 Take the first step by contacting us. We are here to help
               </p>
@@ -111,12 +111,12 @@ export default function Page() {
 
       {/* Contact Form */}
       <div
-        id="contact"
+      
        
-        className="flex flex-col xl:flex-row justify-center gap-[20px] mt-10 pb-20 px-[10px]  max-w-[1105px] m-auto p-10 "
+        className="flex flex-col md:flex-row justify-center gap-[20px] -mt-10 2xl:mt-20 pb-10 px-[10px]  max-w-[1105px] m-auto p-10 "
       >
         <div
-          className="hidden lg:block relative w-[50%] xl:w-[50%] h-[500px] rounded-xl md:w-[50%] lg:w-[50%] bg-center bg-cover"
+          className="hidden lg:block relative w-[50%] xl:w-[50%] h-[450px] 2xl:h-[500px] rounded-xl md:w-[50%] lg:w-[50%] bg-center bg-cover"
           style={{ backgroundImage: `url('/assets/images/Customer-service.jpeg')` }}
         >
           <div className="absolute h-full w-full bg-gradient-to-t from-[#223740] via-[#223740] shadow-inner opacity-70"></div>
@@ -129,7 +129,7 @@ export default function Page() {
             Contact Us
           </div> */}
           <div className="">
-            <p className="text-[30px] text-[#395A68]" style={{ fontFamily: "Optima" }}>
+            <p className="text-[30px] lg:text-[20px] 2xl:text-[30px] text-[#395A68]" style={{ fontFamily: "Optima" }}>
               Request a call back. Feel free to reach out and contact us.
             </p>
           </div>
@@ -190,14 +190,14 @@ export default function Page() {
                 value={state.message}
                 name="message"
                 placeholder="Your Message..."
-                className="px-[12px] h-[180px] w-full outline-none rounded-md py-[12px] flex-1 bg-gray-200"
+                className="px-[12px] h-[180px] w-full outline-none rounded-md py-[5px] flex-1 bg-gray-200"
               />
             </div>
-            <div>
+            <div className="flex justify-center items-center text-center">
               {loading && (
-                <div className="mb-5 text-center ml-5 w-6 h-6 border-t-2 border-blue-600 border-solid animate-spin rounded-full"></div>
+                <div className=" ml-5 w-6 h-6 border-t-2 border-blue-600 border-solid animate-spin rounded-full"></div>
               )}
-              <button className="bg-[#395A68] w-full sm:w-auto px-[20px] py-[12px] hover:bg-[#223740] transition-colors duration-300 font-semibold rounded-lg text-[#9aabb2]" style={{ fontFamily: "Optima" }}>
+              <button className="bg-[#395A68]  w-full sm:w-auto px-[20px] py-[5px] hover:bg-[#223740] transition-colors duration-300 font-semibold rounded-lg text-[#9aabb2]" style={{ fontFamily: "Optima" }}>
                 Send message
               </button>
             </div>

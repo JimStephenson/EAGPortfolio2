@@ -11,7 +11,7 @@ export default async function Page() {
           <div   className=" pt-[20px] md:pt-[20px]   h-fit   relative ">
           <div  className="relative bg-[url('/assets/images/WebsiteBG.png')] bg-auto" >
      
-        <div className="flex flex-col items-center justify-between p-24 ">
+        <div className="flex flex-col items-center justify-between p-5 md:p-24 ">
       <section className=" pt-12">
         <div className="mx-auto container space-y-12 p-10 md:px-6 bg-white">
           <div className="flex flex-col items-center justify-center space-y-4 text-center ">
@@ -32,12 +32,13 @@ export default async function Page() {
                     boxShadow: "#395A68 -10px 25px 50px 10px",
                     fontFamily: "Optima",
                   }}>
+                    {/* <img src={article.articleimage.url} height="150" alt="" /> */}
                     <Image
                       alt="placeholder"
-                      className="aspect-[4/3] object-cover w-full"
-                      height="263"
+                      className="   object-cover w-full"
+                      height="250"
                       src={article.articleimage.url}
-                      width="350"
+                      width="250"
                     />
                     <div className="flex-1 p-6">
                       <Link href={`/pages/blog/${article.slug}`}>

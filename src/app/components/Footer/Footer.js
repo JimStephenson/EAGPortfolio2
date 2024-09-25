@@ -34,9 +34,9 @@ export default function Footer() {
   const legalLinks = ["/pages/contactme"];
 
   return (
-    <div id="footer" className="bg-[url('/assets/images/WebsiteBG.png')] opacity-80 bg-auto pt-0 lg:pt-[100px] " >
+    <div id="footer" className="bg-[url('/assets/images/WebsiteBG.png')] opacity-80 bg-auto pt-0 lg:pt-0 2xl:pt-0 " >
       <div
-        className="max-w-[1140px] bg-[#79AFBA] rounded-xl px-[120px] sm:px-[64px] sm:py-[64px] m-auto"
+        className="max-w-[1140px] bg-[#79AFBA] rounded-xl px-[120px] sm:px-[64px] sm:py-[30px] m-auto"
         style={{ transform: "translate(0px, 70px)" }}
       >
         <div className="grid grid-cols-12">
@@ -56,10 +56,10 @@ export default function Footer() {
             </p>
           </div>
           <div className="col-span-12 lg:col-span-3">
-            <div className="flex justify-center mt-5 lg:mt-0">
+            <div className="flex justify-center mt-5 lg:mt-0 mb-5 md:mb-0">
               <a
                 href="/pages/contactme"
-                className="font-sans cursor-pointer px-10 py-5 bg-black rounded-xl text-white font-medium text-lg"
+                className="font-bold cursor-pointer px-10 py-5 bg-black rounded-xl text-white text-lg "
                 style={{ fontFamily: "Optima" }}
               >
                 Enquire Now

@@ -11,6 +11,7 @@ export async function generateStaticParams() {
   const allArticles = await getAllArticles();
 
   return allArticles.map((article) => ({
+    
     slug: article.slug,
   }));
 }

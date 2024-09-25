@@ -45,16 +45,16 @@ export default function NonCellphoneServicesComponent() {
   return (
     <React.Fragment>
         <div className="hidden lg:block">
-           <h4 className="relative w-full font-[300] md:w-3/4 lg:w-2/3 xl:w-1/2 text-[#395A68] text-4xl mb-10 px-5 md:px-24" style={{ fontFamily: "Optima" }}>
+           <h4 className="relative w-full font-bold mt-10 md:w-full lg:w-full xl:w-1/2 text-[#395A68] text-xl lg:text-3xl 2xl:text-3xl mb-10 px-5 md:px-24" style={{ fontFamily: "Optima" }}>
             {AboutData[selectedIndex].title}
           </h4>
-          <p className="relative w-full font-[300] md:w-3/4 lg:w-2/3 xl:w-1/2 text-[#395A68] text-2xl mb-10 px-5 md:px-24" style={{ fontFamily: "Optima" }}>
+          <p className="relative w-full    text-[#395A68] lg:text-xl text-2xl mb-10 px-5 md:px-24" style={{ fontFamily: "Optima" }}>
             {AboutData[selectedIndex].description}
           </p>
 
           <section className="container flex  flex-col  sm:flex-row px-5 md:px-24 mt-0 " >
-          <div className=" hidden sm:flex w-full sm:w-1/2 lg:w-7/12" >
-            <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6 mr-0 lg:mr-10" >
+          <div className=" hidden sm:flex w-full sm:w-full lg:w-full" >
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mr-0 lg:mr-10" >
               {AboutData.map((item, index) => (
                 <a
                   key={index}

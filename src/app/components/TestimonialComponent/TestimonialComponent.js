@@ -126,11 +126,11 @@ export default function TestimonialComponent() {
         {/* <h1 className="text-[200px] w-[80%] overflow-hidden absolute lg:left-40 md:left-30 -top-[-50px] z-0 text-[#EAF7FC]">
           Blogs
         </h1> */}
-        <p className="relative  text-5xl text-center text-[#395A68] -mt-10 " style={{ fontFamily: "Optima" }}>
+        <p className="relative font-bold  text-5xl lg:text-4xl text-center text-[#395A68] -mt-10 " style={{ fontFamily: "Optima" }}>
           Testimonials
         </p>
         <div
-        className="bg-[#E0F3FB] mt-10 max-h-[450px] py-12 lg:px-12 md:px-5 px-3 rounded-lg  pt-[150px] "
+        className="bg-[#E0F3FB] mt-10 max-h-[450px] py-12 lg:px-12 md:px-5 px-3 rounded-lg  pt-[150px] lg:pt-[50px] "
         style={{
           backgroundImage:
             "linear-gradient(-62deg, #395A68 0 50%, #395A68 0% 100%)",
@@ -142,11 +142,11 @@ export default function TestimonialComponent() {
 
         <div className="lg:container mx-auto   px-0 sm:max-h-[350px]">
           <div className="text-center">
-            <h2 className=" text-5xl mb-6 text-[#9aabb2]" style={{ fontFamily: "Optima" }}>
+            <h2 className=" text-5xl lg:text-4xl mb-6 text-[#9aabb2]" style={{ fontFamily: "Optima" }}>
               What our customers Are Saying
             </h2>
             <p
-              className="max-w-2xl font-[200] text-[#9aabb2] mx-auto mb-12 lg:mb-24" style={{ fontFamily: "Optima" }}
+              className="max-w-2xl font-[200] text-[#9aabb2] mx-auto mb-12 lg:mb-12 2xl:mb-24" style={{ fontFamily: "Optima" }}
             >
               Read what Our clients are saying about how We helped them make a
               difference in their lives.
