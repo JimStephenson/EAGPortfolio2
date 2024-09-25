@@ -120,9 +120,9 @@ export default function TestimonialComponent() {
     <div
       id="testimonial"
       // className=" pt-[250px] mt-4  pb-[100px] lg:pb-[600px] relative lg:h-[800px]"
-      className=" pt-[50px] md:pt-[150px]   h-fit md:h-screen   relative "
+      className=" pt-[50px] md:pt-[150px] hidden md:hidden lg:block  h-fit md:h-screen   relative "
     >
-      <div className="container m-auto mb-30 hidden md:block">
+      <div className="container m-auto mb-30 ">
         {/* <h1 className="text-[200px] w-[80%] overflow-hidden absolute lg:left-40 md:left-30 -top-[-50px] z-0 text-[#EAF7FC]">
           Blogs
         </h1> */}

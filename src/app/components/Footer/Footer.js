@@ -36,19 +36,19 @@ export default function Footer() {
   return (
     <div id="footer" className="bg-[url('/assets/images/WebsiteBG.png')] opacity-80 bg-auto pt-0 lg:pt-0 2xl:pt-0 " >
       <div
-        className="max-w-[1140px] bg-[#79AFBA] rounded-xl px-[120px] sm:px-[64px] sm:py-[30px] m-auto"
+        className="w-full max-w-[1140px] bg-[#79AFBA] rounded-xl px-[120px] sm:px-[64px] sm:py-[10px] m-auto"
         style={{ transform: "translate(0px, 70px)" }}
       >
         <div className="grid grid-cols-12">
           <div className="col-span-12 lg:col-span-9">
             <p
-              className="text-[30px] text-white text-center lg:text-start"
+              className="w-full text-[20px] md-text-[30px] text-white text-center lg:text-start"
               style={{ fontFamily: "Optima" }}
             >
               Ready To Get Started?
             </p>
             <p
-              className="text-white font-sans text-center lg:text-start"
+              className="text-white text-[15px] md:text-[20px] text-center lg:text-start"
               style={{ fontFamily: "Optima" }}
             >
               Our Team at Elevation Accounting Group are waiting to provide you

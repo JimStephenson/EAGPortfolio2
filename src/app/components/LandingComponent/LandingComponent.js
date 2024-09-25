@@ -27,7 +27,8 @@ function SampleNextArrow(props) {
 export default function LandingComponent() {
   return (
     <React.Fragment>
-    <div className="flex flex-col h-screen justify-center lg:justify-between items-center p-[5%]">
+    <div className="flex flex-col h-screen justify-center text-center lg:justify-center items-center">
+      <div className="flex flex-col justify-center items-center w-[90%] ">
       <img
         src="/assets/images/WideLogo.png"
         className="hidden md:block w-[65%]  md:w-[65%] col-span-12 opacity-100 z-50"
@@ -36,25 +37,25 @@ export default function LandingComponent() {
       ></img>
        <img
         src="/assets/images/EAGMobileLogo.png"
-        className="md:hidden mt-5 w-[60%]   md:w-[60%] col-span-12 opacity-100 z-50"
+        className="md:hidden mt-5 w-[65%] items-center  md:w-[60%] col-span-12 opacity-100 z-50"
         decoding="async"
         alt="EAGLogo"
       ></img>
         <div
-          className="w-[75%] mt-5 p-5 bg-white justify-center items-center text-center rounded-2xl"
+          className=" mt-5 p-5 bg-white  rounded-2xl"
           style={{
             boxShadow: "#395A68 -10px 25px 50px 10px",
             fontFamily: "Optima",
           }}
         >
       <p
-        className="text-[#395A68] text-xl font-bold justify-center text-center  md:text-4xl lg:text-2xl 2xl:text-4xl mt-2 lg:mt-2 2xl:mt-10"
+        className="text-[#395A68] w-full text-lg font-bold  md:text-4xl lg:text-2xl 2xl:text-4xl mt-2 lg:mt-2 2xl:mt-10"
         style={{ fontFamily: "Optima" }}
       >
         Accountancy, Payroll & Business Support Services
       </p>
       <h3
-        className="text-[#395A68] justify-center text-center w-full text-normal md:text-xl lg:text-lg xl:text-xl mt-10 md:mt-10 lg:mt-5 2xl:mt-15 mb-5"
+        className="text-[#395A68]  w-full text-normal md:text-xl lg:text-lg xl:text-xl mt-2 md:mt-10 lg:mt-5 2xl:mt-15 mb-5"
         style={{ fontFamily: "Optima" }}
       >
         Our mission is to empower small and medium-sized enterprises (SMEs) by
@@ -71,12 +72,13 @@ export default function LandingComponent() {
         <a
           //   href="/page/contactme"
           href="/#contact"
-          className="mt-10 justify-center text-center cursor-pointer  bg-[#395A68] transition-all duration-300 ease-in-out rounded-lg text-[#9aabb2] py-3 px-5 font-bold  lg:px-8 text-normal lg:text-lg 2xl:text-xl md:mt-5 lg:mt-10 2xl:mt-10 hover:bg-[#223740] hover:shadow-lg transform hover:translate-y-1"
+          className="mt-10  cursor-pointer  bg-[#395A68] transition-all duration-300 ease-in-out rounded-lg text-[#9aabb2] py-3 px-5 font-bold  lg:px-8 text-normal lg:text-lg 2xl:text-xl md:mt-5 lg:mt-10 2xl:mt-10 hover:bg-[#223740] hover:shadow-lg transform hover:translate-y-1"
           style={{ fontFamily: "Optima" }}
         >
           Get in touch
         </a>
         
+        </div>
         </div>
 
         {/* SLIDER */}
