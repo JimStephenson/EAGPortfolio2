@@ -4,11 +4,9 @@ import Drawer from "./DiagonalDrawer";
 import "../Header/DiagonalDrawer.css";
 import Link from "next/link";
 import Image from "next/image";
-
-
+import { FaPhone } from "react-icons/fa6";
 
 //import { AboutData } from "@/app/data";
-
 
 export default function Header() {
   const [selectedIndex1, setSelectedIndex1] = useState(0);
@@ -18,12 +16,14 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      var scrollTop =
-        window.scrollY || document.documentElement.scrollTop;
+      var scrollTop = window.scrollY || document.documentElement.scrollTop;
       setIsScrolled(scrollTop > 0);
-      console.log("Header scrollTop : ", scrollTop)
-      console.log("Header isScrolled : ", isScrolled)
-      console.log("Header doc.scrolltop : ", document.documentElement.scrollTop)
+      console.log("Header scrollTop : ", scrollTop);
+      console.log("Header isScrolled : ", isScrolled);
+      console.log(
+        "Header doc.scrolltop : ",
+        document.documentElement.scrollTop
+      );
     };
     window.addEventListener("scroll", handleScroll);
 
@@ -68,121 +68,143 @@ export default function Header() {
           </div>
         </div>
 
-        <nav className="invisible xl:visible xl:max-w-4xl 2xl:max-w-7xl mx-auto ">
-          <ul className="flex  flex-row justify-center items-center h-24" style={{ fontFamily: "Optima" }}>
-            <li className="group text-2xl relative font-bold mr-20">
-              {selectedIndex1 === 0 ? (
-                <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
-              ) : ""/* (
+        <div className="flex flex-row justify-center">
+          <nav className="invisible xl:visible xl:max-w-4xl 2xl:max-w-7xl mx-auto ">
+            <ul
+              className="flex  flex-row justify-center items-center h-24"
+              style={{ fontFamily: "Optima" }}
+            >
+              <li className="group text-2xl relative font-bold mr-20">
+                {
+                  selectedIndex1 === 0 ? (
+                    <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+                  ) : (
+                    ""
+                  ) /* (
                 <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               ) */
-              }
-              <a
-                className={`menu-item ${
-                  selectedIndex1 === 0 ? "text-[#395A68]" : ""
-                } text-[#395A68] group-hover:text-black`}
-                href="/#home"
-                onClick={() => setSelectedIndex1(0)}
-                style={{ fontFamily: "Optima" }}
-              >
-                Home
-              </a>
-            </li>
-            <li className="group text-2xl relative font-bold mr-20">
-              {selectedIndex1 === 1 ? (
-                <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
-              ) : (
-                <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
-              )}
-              <a
-                className={`menu-item ${
-                  selectedIndex1 === 1 ? "text-[#395A68]" : ""
-                } text-[#395A68] group-hover:text-black`}
-                href="/#about"
-                onClick={() => setSelectedIndex1(1)}
-                style={{ fontFamily: "Optima" }}
-              >
-                About
-              </a>
-            </li>
-            <li className="group text-2xl relative font-bold mr-20">
-              {selectedIndex1 === 2 ? (
-                <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
-              ) : ""/* (
-                <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
-              ) */
-              }
-              <a
-                className={`menu-item ${
-                  selectedIndex1 === 2 ? "text-[#395A68]" : ""
-                } text-[#395A68] group-hover:text-black`}
-                href="/#services"
-                onClick={() => setSelectedIndex1(2)}
-                style={{ fontFamily: "Optima" }}
-              >
-                Services
-              </a>
-            </li>
-          
-            <li className="group text-2xl relative font-bold mr-20">
-              {selectedIndex1 === 3 ? (
-                <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
-              ) :"" /* (
+                }
+                <a
+                  className={`menu-item ${
+                    selectedIndex1 === 0 ? "text-[#395A68]" : ""
+                  } text-[#395A68] group-hover:text-black`}
+                  href="/#home"
+                  onClick={() => setSelectedIndex1(0)}
+                  style={{ fontFamily: "Optima" }}
+                >
+                  Home
+                </a>
+              </li>
+              <li className="group text-2xl relative font-bold mr-20">
+                {selectedIndex1 === 1 ? (
+                  <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+                ) : (
+                  <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+                )}
+                <a
+                  className={`menu-item ${
+                    selectedIndex1 === 1 ? "text-[#395A68]" : ""
+                  } text-[#395A68] group-hover:text-black`}
+                  href="/#about"
+                  onClick={() => setSelectedIndex1(1)}
+                  style={{ fontFamily: "Optima" }}
+                >
+                  About
+                </a>
+              </li>
+              <li className="group text-2xl relative font-bold mr-20">
+                {
+                  selectedIndex1 === 2 ? (
+                    <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+                  ) : (
+                    ""
+                  ) /* (
                 <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               ) */
-              }
-              <Link
-                className={`menu-item ${
-                  selectedIndex1 === 3 ? "text-[#395A68]" : ""
-                } text-[#395A68] group-hover:text-black`}
-                href="/pages/contactme"
-                onClick={() => setSelectedIndex1(3)}
-                style={{ fontFamily: "Optima" }}
-              >
-                Contact
-              </Link>
-            </li>
-            <li className="group text-2xl relative font-bold mr-20">
-              {selectedIndex1 === 4 ? (
-                <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
-              ) : ""/* (
-                <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
-              ) */
-              }
-              <Link
-                className={`menu-item ${
-                  selectedIndex1 === 4 ? "text-[#395A68]" : ""
-                } text-[#395A68] group-hover:text-black`}
-                href="/#testimonial"
-                onClick={() => setSelectedIndex1(4)}
-                style={{ fontFamily: "Optima" }}
-              >
-                Testimonial
-              </Link>
-            </li>
-            <li className="group text-2xl relative font-bold mr-20">
-              {selectedIndex1 === 5 ? (
-                <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
-              ) :"" /* (
-                <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
-              ) */
-              }
-              <Link
-                className={`menu-item ${
-                  selectedIndex1 === 5 ? "text-[#395A68]" : ""
-                }text-[#395A68] group-hover:text-black`}
-                href="/pages/blog"
-                onClick={() => setSelectedIndex1(5)}
-                style={{ fontFamily: "Optima" }}
-              >
-                Blog
-              </Link>
-            </li>
-         </ul>
-        </nav>
+                }
+                <a
+                  className={`menu-item ${
+                    selectedIndex1 === 2 ? "text-[#395A68]" : ""
+                  } text-[#395A68] group-hover:text-black`}
+                  href="/#services"
+                  onClick={() => setSelectedIndex1(2)}
+                  style={{ fontFamily: "Optima" }}
+                >
+                  Services
+                </a>
+              </li>
 
-       
-
+              <li className="group text-2xl relative font-bold mr-20">
+                {
+                  selectedIndex1 === 3 ? (
+                    <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+                  ) : (
+                    ""
+                  ) /* (
+                <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+              ) */
+                }
+                <Link
+                  className={`menu-item ${
+                    selectedIndex1 === 3 ? "text-[#395A68]" : ""
+                  } text-[#395A68] group-hover:text-black`}
+                  href="/pages/contactme"
+                  onClick={() => setSelectedIndex1(3)}
+                  style={{ fontFamily: "Optima" }}
+                >
+                  Contact
+                </Link>
+              </li>
+              <li className="group text-2xl relative font-bold mr-20">
+                {
+                  selectedIndex1 === 4 ? (
+                    <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+                  ) : (
+                    ""
+                  ) /* (
+                <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+              ) */
+                }
+                <Link
+                  className={`menu-item ${
+                    selectedIndex1 === 4 ? "text-[#395A68]" : ""
+                  } text-[#395A68] group-hover:text-black`}
+                  href="/#testimonial"
+                  onClick={() => setSelectedIndex1(4)}
+                  style={{ fontFamily: "Optima" }}
+                >
+                  Testimonial
+                </Link>
+              </li>
+              <li className="group text-2xl relative font-bold mr-20">
+                {
+                  selectedIndex1 === 5 ? (
+                    <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+                  ) : (
+                    ""
+                  ) /* (
+                <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
+              ) */
+                }
+                <Link
+                  className={`menu-item ${
+                    selectedIndex1 === 5 ? "text-[#395A68]" : ""
+                  }text-[#395A68] group-hover:text-black`}
+                  href="/pages/blog"
+                  onClick={() => setSelectedIndex1(5)}
+                  style={{ fontFamily: "Optima" }}
+                >
+                  Blog
+                </Link>
+              </li>
+            </ul>
+          </nav>
+          <div className="invisible xl:visible flex flex-row text-start items-center justify-center">
+          <FaPhone style={{color: '#395A68'}} />
+          <p className="text-2xl relative font-bold text-[#395A68] mr-100"  style={{ fontFamily: "Optima" }}> &nbsp; 20 8133 5602&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          </div>
+         
+        </div>
       </header>
     </React.Fragment>
   );

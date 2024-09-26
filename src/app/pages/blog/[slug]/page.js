@@ -56,7 +56,7 @@ export default async function KnowledgeArticlePage({ params }) {
                 Published Date: {formatDate(article.date)}
               </p>
 
-              <div class="flex justify-center items-center">
+              <div className="flex justify-center items-center">
               <Image
                   alt="placeholder"
                   className="aspect-[4/3]   text-center justify-center items-center "
