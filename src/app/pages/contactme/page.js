@@ -197,7 +197,7 @@ export default function Page() {
               {loading && (
                 <div className=" ml-5 w-6 h-6 border-t-2 border-blue-600 border-solid animate-spin rounded-full"></div>
               )}
-              <button className="bg-[#395A68]  w-full sm:w-auto px-[20px] py-[5px] hover:bg-[#223740] transition-colors duration-300 font-semibold rounded-lg text-[#9aabb2]" style={{ fontFamily: "Optima" }}>
+              <button className="bg-[#395A68]  w-full sm:w-auto px-[20px] py-[8px] hover:bg-[#223740] transition-colors duration-300 font-semibold rounded-lg text-[#9aabb2]" style={{ fontFamily: "Optima" }}>
                 Send message
               </button>
             </div>
