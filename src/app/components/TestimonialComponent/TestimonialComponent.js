@@ -143,12 +143,12 @@ export default function TestimonialComponent() {
         <div className="lg:container mx-auto   px-0 sm:max-h-[350px]">
           <div className="text-center">
             <h2 className=" text-5xl lg:text-4xl mb-6 text-[#9aabb2]" style={{ fontFamily: "Optima" }}>
-              What our customers Are Saying
+              What our clients are saying
             </h2>
             <p
               className="max-w-2xl font-[200] text-[#9aabb2] mx-auto mb-12 lg:mb-12 2xl:mb-24" style={{ fontFamily: "Optima" }}
             >
-              Read what Our clients are saying about how We helped them make a
+              Read what our clients are saying about how we helped them make a
               difference in their lives.
             </p>
           </div>
@@ -166,7 +166,7 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-          Lee&apos;s duties included a range of financial support in as
+          &quot;Lee&apos;s duties included a range of financial support in as
           far as the company bookkeeping requirements and the
           compilation of management accounts for subsidiary
           companies. Her role required her to liaise with our
@@ -177,7 +177,7 @@ export default function TestimonialComponent() {
           of the key management team. Her excellent grasp of our
           company needs and Client expectations meant that she was
           able to offer not only the accounting function, but also
-          management support.
+          management support.&quot;
         </p>
       </div>
     </div>
@@ -194,7 +194,7 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-          Lee worked for our Company from September 2012 until June
+          &quot;Lee worked for our Company from September 2012 until June
           2013 in the position of Finance Manager. She has been
           responsible for all finance functions within the company
           and for managing the finance department, ensuring all
@@ -205,7 +205,7 @@ export default function TestimonialComponent() {
           Lee has always worked hard and diligently and has gained
           the respect and friendship of her department and other
           staff. I am very happy to commend her to any future
-          employer.
+          employer.&quot;
         </p>
       </div>
     </div>
@@ -222,7 +222,7 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-         Lee joined our Company as Finance and Administration Manager, and right from the start displayed enthusiasm and commitment to the Company. Not afraid to muck in, Lee coped with the initial  finance  set up and many administration jobs at the same time.
+         &quot;Lee joined our Company as Finance and Administration Manager, and right from the start displayed enthusiasm and commitment to the Company. Not afraid to muck in, Lee coped with the initial  finance  set up and many administration jobs at the same time.&quot;
         </p>
       </div>
     </div>
@@ -239,7 +239,7 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-          Her work was accurate, timely and neatly presented. Very good communication skills, both internal and external. Resourceful and enjoyable to work with.
+          &quot;Her work was accurate, timely and neatly presented. Very good communication skills, both internal and external. Resourceful and enjoyable to work with.&quot;
         </p>
       </div>
     </div>
@@ -256,7 +256,7 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-         I am delighted to confirm that Lee has been a great asset to our company since joining as Accounts Manager in July 2013. For the past two years the senior management of our have been reassured by her highly competent performance within the accounts department and confident that the management of the company financial records has been in safe hands.
+         &quot;I am delighted to confirm that Lee has been a great asset to our company since joining as Accounts Manager in July 2013. For the past two years the senior management of our have been reassured by her highly competent performance within the accounts department and confident that the management of the company financial records has been in safe hands.&quot;
         </p>
       </div>
     </div>
@@ -273,7 +273,7 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-         We are genuinely sad that Lee has decided to Leave Laps in order to pursue a new opportunity and our loss will surely be her new employer&apos;s gain.
+         &quot;We are genuinely sad that Lee has decided to Leave Laps in order to pursue a new opportunity and our loss will surely be her new employer&apos;s gain.&quot;
         </p>
       </div>
     </div>
@@ -290,7 +290,7 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-         Lee has been a pleasure to work with and has also spoken up when she has felt strongly that when she has constructive input to help move the company forward. She has had an excellent attendance record and have found her to be completely honest and trustworthy.
+         &quot;Lee has been a pleasure to work with and has also spoken up when she has felt strongly that when she has constructive input to help move the company forward. She has had an excellent attendance record and have found her to be completely honest and trustworthy.&quot;
         </p>
       </div>
     </div>
@@ -307,7 +307,7 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-         I would have no hesitation in recommending her to a position of trust and responsibility,
+         &quot;I would have no hesitation in recommending her to a position of trust and responsibility.&quot;
         </p>
       </div>
     </div>
@@ -324,7 +324,7 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-          Lee has been our Freelance Bookkeeper and Accountant from 1997 until 2011. She was responsible for - Monthly accounting, Vat calculations and payments,  Salary calculations, paye deductions and payments and year end on-line returns., Production of monthly Management Accounts, Preparation of Annual Statuary Accounts for Audit and liaison  with Auditors. She is loyal, hardworking and a person of integrity and will undoubtedly be an asset to anyone who is fortunate enough to employ  her.
+          &quot;Lee has been our Freelance Bookkeeper and Accountant from 1997 until 2011. She was responsible for - Monthly accounting, Vat calculations and payments,  Salary calculations, paye deductions and payments and year end on-line returns., Production of monthly Management Accounts, Preparation of Annual Statuary Accounts for Audit and liaison  with Auditors. She is loyal, hardworking and a person of integrity and will undoubtedly be an asset to anyone who is fortunate enough to employ her.&quot;
         </p>
       </div>
     </div>
@@ -341,7 +341,7 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-         Lee joined our Company as Finance and Administration Manager, and right from the start displayed enthusiasm and commitment to the Company. Not afraid to muck in, Lee coped with the initial  finance  set up and many administration jobs at the same time.
+         &quot;Lee joined our Company as Finance and Administration Manager, and right from the start displayed enthusiasm and commitment to the Company. Not afraid to muck in, Lee coped with the initial  finance  set up and many administration jobs at the same time.&quot;
         </p>
       </div>
     </div>
@@ -358,7 +358,7 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-        Her work was accurate, timely and neatly presented. Very good communication skills, both internal and external. Resourceful and enjoyable to work with.
+        &quot;Her work was accurate, timely and neatly presented. Very good communication skills, both internal and external. Resourceful and enjoyable to work with.&quot;
         </p>
       </div>
     </div>
@@ -375,12 +375,12 @@ export default function TestimonialComponent() {
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-         Shelly played a key roll in the implementation of a new
+         &quot;Shelly played a key roll in the implementation of a new
           Oracle based Accounting System, where she assisted in the
           reconciliation, conversion and clean up of approximately
           400 accounts. Shelly has proved herself to be an honest
           and trusworthy employee and has been a committed and
-          valued member of the Finance Department.
+          valued member of the Finance Department.&quot;
         </p>
       </div>
     </div>
@@ -407,9 +407,9 @@ Render  the componanet within parant page.tsx
         <p
           className="mb-6 font-[200] text-[#395A68]  min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-          I would rehire Shelly without question, she was a great
+          &quot;I would rehire Shelly without question, she was a great
           asset to the finance team and the company in general and
-          would have continued to add value to the AFC role.
+          would have continued to add value to the AFC role.&quot;
         </p>
       </div>
     </div>
@@ -426,13 +426,13 @@ Render  the componanet within parant page.tsx
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-          Shelly is an extremely well rounded indiviual who&apos;s role
+          &quot;Shelly is an extremely well rounded indiviual who&apos;s role
           as AFC demanded her to work independantly and was a
           proactive team leader in several of our Business Plan
           projects, Shelly consistantly delivered on both levels as
           she has the aptitude to continually think outside the box
           and tackle problems and issues with clear approach and
-          consider all options available to her.
+          consider all options available to her.&quot;
         </p>
       </div>
     </div>
@@ -449,9 +449,9 @@ Render  the componanet within parant page.tsx
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-         Shelly met all deadlines without fail and managed any
+         &quot;Shelly met all deadlines without fail and managed any
           stressful situations in a professional manner. Her work
-          was always accurate, with excellent attention to detail.
+          was always accurate, with excellent attention to detail.&quot;
         </p>
       </div>
     </div>
@@ -468,10 +468,10 @@ Render  the componanet within parant page.tsx
         <p
           className="mb-6 font-[200] text-[#395A68] min-h-[70px] text-[15px] mt-3" style={{ fontFamily: "Optima" }}
         >
-        Shelly contributed over and above what I would have
+        &quot;Shelly contributed over and above what I would have
           expected from an employee, and it&apos;s appreciated at a
           personal level as well as professional. She will be sorely
-          missed!
+          missed!&quot;
         </p>
       </div>
     </div>

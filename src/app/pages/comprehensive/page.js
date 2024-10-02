@@ -42,14 +42,15 @@ export default function Page() {
                 className="list-none text-[#395A68] text-center mt-10 px-5 mb-10 text-xl"
                 style={{ fontFamily: "Optima" }}
               >
-                <li className="mb-2">General Ledger Setup</li>
-                <li className="mb-2">Financial Reporting</li>
-                <li className="mb-2">Compliance Audits </li>
-                <li className="mb-2">Tax Filing </li>
-                <li className="mb-2">Asset Management</li>
-                <li className="mb-2">Accounts Receivable/Payable </li>
-                <li className="mb-2">Monthly and Year-end Closings </li>
-                <li className="mb-2">VAT & PAYE Submissions </li>
+                <li className="mb-2">Account Setup</li>
+                <li className="mb-2">Management of Debtors Ledger</li>
+                <li className="mb-2">Management of Creditors Ledger </li>
+                <li className="mb-2">Bank Reconciliations </li>
+                <li className="mb-2">Journals</li>
+                <li className="mb-2">Asset Register </li>
+                <li className="mb-2">Month End </li>
+                <li className="mb-2">VAT & PAYE </li>
+                <li className="mb-2">Year End - Liaison with Auditor </li>
               </ul>
             </div>
           </div>
