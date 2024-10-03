@@ -65,7 +65,7 @@ export default function LandingComponent() {
             <div className="mt-10">
             <a
               //   href="/page/contactme"
-              href="/#contact"
+              href="/pages/contactme"
               className=" cursor-pointer mt-10 bg-[#395A68] transition-all duration-300 ease-in-out rounded-lg text-[#9aabb2] py-3 px-5 font-bold  lg:px-8 text-normal lg:text-lg 2xl:text-xl md:mt-5 lg:mt-10 2xl:mt-10 hover:bg-[#223740] hover:shadow-lg transform hover:translate-y-1"
               style={{ fontFamily: "Optima" }}
             >
