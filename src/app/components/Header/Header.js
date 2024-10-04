@@ -201,7 +201,7 @@ export default function Header() {
           </nav>
           <div className="invisible xl:visible flex flex-row text-start items-center justify-center">
           <FaPhone style={{color: '#395A68'}} />
-          <p className="text-2xl relative font-bold text-[#395A68] mr-100"  style={{ fontFamily: "Optima" }}> &nbsp; 20 8133 5602&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p className="text-2xl relative font-bold text-[#395A68] mr-100"  style={{ fontFamily: "Optima" }}> &nbsp; 020 8133 5602&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
           </div>
          
         </div>

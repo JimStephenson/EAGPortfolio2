@@ -188,7 +188,7 @@ export default function DiagonalDrawer({
 
               <div className="flex flex-row text-start items-center justify-center mt-5">
           <FaPhone style={{color: 'white'}} />
-          <p className="text-2xl lg:text-3xl 2xl:text-4xl relative font-bold text-white mr-100"  style={{ fontFamily: "Optima" }}> &nbsp; 20 8133 5602&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p className="text-2xl lg:text-3xl 2xl:text-4xl relative font-bold text-white mr-100"  style={{ fontFamily: "Optima" }}> &nbsp; 020 8133 5602&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
           </div>
          
         
