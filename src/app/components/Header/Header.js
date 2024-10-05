@@ -65,16 +65,17 @@ export default function Header() {
                 className="w-[150px] h-10"
               />
             </div>
+           
           </div>
         </div>
 
         <div className="flex flex-row justify-center">
-          <nav className="invisible xl:visible xl:max-w-4xl 2xl:max-w-7xl mx-auto ">
+          <nav className="hidden xl:block xl:max-w-4xl 2xl:max-w-7xl mx-auto ">
             <ul
               className="flex  flex-row justify-center items-center h-24"
               style={{ fontFamily: "Optima" }}
             >
-              <li className="group text-2xl relative font-bold mr-20">
+              <li className="group text-2xl relative font-bold mr-10">
                 {
                   selectedIndex1 === 0 ? (
                     <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
@@ -95,7 +96,7 @@ export default function Header() {
                   Home
                 </a>
               </li>
-              <li className="group text-2xl relative font-bold mr-20">
+              <li className="group text-2xl relative font-bold mr-10">
                 {selectedIndex1 === 1 ? (
                   <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
                 ) : (
@@ -112,7 +113,7 @@ export default function Header() {
                   About
                 </a>
               </li>
-              <li className="group text-2xl relative font-bold mr-20">
+              <li className="group text-2xl relative font-bold mr-10">
                 {
                   selectedIndex1 === 2 ? (
                     <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
@@ -134,7 +135,7 @@ export default function Header() {
                 </a>
               </li>
 
-              <li className="group text-2xl relative font-bold mr-20">
+              <li className="group text-2xl relative font-bold mr-10">
                 {
                   selectedIndex1 === 3 ? (
                     <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
@@ -155,7 +156,7 @@ export default function Header() {
                   Contact
                 </Link>
               </li>
-              <li className="group text-2xl relative font-bold mr-20">
+              <li className="group text-2xl relative font-bold mr-10">
                 {
                   selectedIndex1 === 4 ? (
                     <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
@@ -176,7 +177,7 @@ export default function Header() {
                   Testimonial
                 </Link>
               </li>
-              <li className="group text-2xl relative font-bold mr-20">
+              <li className="group text-2xl relative font-bold mr-10">
                 {
                   selectedIndex1 === 5 ? (
                     <span className="menu-effect transform opacity-100 -rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
@@ -199,11 +200,10 @@ export default function Header() {
               </li>
             </ul>
           </nav>
-          <div className="invisible xl:visible flex flex-row text-start items-center justify-center">
+              <div className="mt-5 xl:mt-0 flex flex-row text-start items-center justify-center">
           <FaPhone style={{color: '#395A68'}} />
-          <p className="text-2xl relative font-bold text-[#395A68] mr-100"  style={{ fontFamily: "Optima" }}> &nbsp; 020 8133 5602&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p className="text-xl  xl:text-2xl relative font-bold text-[#395A68] mr-0 xl:mr-50 2xl:mr-100"  style={{ fontFamily: "Optima" }}> &nbsp; 020 8133 5602&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
           </div>
-         
         </div>
       </header>
     </React.Fragment>
