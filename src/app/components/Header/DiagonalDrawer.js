@@ -183,7 +183,7 @@ export default function DiagonalDrawer({
 
                
                  <div>
-              <img src='/assets/images/Shortlogo.png' alt='eaglogo' className="h-40 md:h-50 mt-10 justify-center items-center"/>
+              <img src='/assets/images/ShortLogo.png' alt='eaglogo' className="h-40 md:h-50 mt-10 justify-center items-center"/>
               </div>
 
               <div className="flex flex-row text-start items-center justify-center mt-5">
