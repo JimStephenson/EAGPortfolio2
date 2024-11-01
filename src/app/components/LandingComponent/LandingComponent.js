@@ -37,7 +37,7 @@ export default function LandingComponent() {
           ></img>
           <img
             src="/assets/images/ShortLogo.png"
-            className="md:hidden mt-5 w-[65%] items-center  md:w-[60%] col-span-12 opacity-100 z-50"
+            className="md:hidden mt-5 w-[90%] items-center  md:w-[65%] col-span-12 opacity-100 z-50 mb-10"
             decoding="async"
             alt="EAGLogo"
           ></img>
