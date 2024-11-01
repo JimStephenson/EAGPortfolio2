@@ -22,7 +22,7 @@ export default function DiagonalDrawer({
         >
           <div
             onClick={() => setIsOpen(false)}
-            className="relative w-7 lg:w-10 h-7 lg:h-10 flex justify-center items-center"
+            className="relative w-7 lg:w-10 h-7 lg:h-10 flex justify-center text-center items-center"
           >
             {isOpen ? (
               <svg
@@ -183,7 +183,7 @@ export default function DiagonalDrawer({
 
                
                  <div>
-              <img src='/assets/images/EAGlogo.png' alt='eaglogo' className="h-40 md:h-50 mt-10 justify-center items-center"/>
+              <img src='/assets/images/Shortlogo.png' alt='eaglogo' className="h-40 md:h-50 mt-10 justify-center items-center"/>
               </div>
 
               <div className="flex flex-row text-start items-center justify-center mt-5">

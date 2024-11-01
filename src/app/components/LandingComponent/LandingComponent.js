@@ -30,13 +30,13 @@ export default function LandingComponent() {
       <div className="flex flex-col h-screen justify-center text-center lg:justify-center items-center">
         <div className="flex flex-col justify-center items-center w-[90%] ">
           <img
-            src="/assets/images/WideLogo.png"
-            className="hidden md:block w-[65%]  md:w-[65%] col-span-12 opacity-100 z-50"
+            src="/assets/images/LongLogo.png"
+            className="hidden md:block w-[65%]  md:w-[65%] col-span-12 opacity-100 z-50 mb-5"
             decoding="async"
             alt="WideLogo"
           ></img>
           <img
-            src="/assets/images/EAGMobileLogo.png"
+            src="/assets/images/ShortLogo.png"
             className="md:hidden mt-5 w-[65%] items-center  md:w-[60%] col-span-12 opacity-100 z-50"
             decoding="async"
             alt="EAGLogo"
