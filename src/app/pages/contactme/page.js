@@ -84,11 +84,11 @@ export default function Page() {
   return (
     <React.Fragment>
        <div
-      id="contact" className=" pt-[50px] md:pt-[100px]   h-fit md:h-screen   relative ">
+      id="contact" className=" pt-[50px] md:pt-[100px]   h-full md:h-screen   relative ">
       <ToastContainer />
-      <div  className="relative bg-[url('/assets/images/WebsiteBG.png')] bg-cover  " >
+      <div  className="relative bg-[url('/assets/images/blankbackground.png')] h-screen bg-cover  " >
       <div className="flex flex-col items-center justify-center w-full  mt-4">
-        <div className=' items-center justify-center bg-[url("/offices.jpg")] bg-center bg-cover w-[70%]'>
+        <div className=' items-center justify-center  bg-center bg-cover w-[70%]'>
           <div className="items-center justify-center w-full h-full rounded-xl bg-[#395A68] backdrop-brightness-50">
          
 
@@ -98,7 +98,7 @@ export default function Page() {
               </h1>
             </div>
             {/* <div className="flex justify-center text-center mt-[10px] md:w-[700px]"> */}
-              <p className="text-[#9aabb2] lg:text-lg 2xl:text-2xl p-5 mb-5 text-center text-xl" style={{ fontFamily: "Optima" }}>
+              <p className="text-[#9aabb2] lg:text-lg 2xl:text-2xl p-15 mb-10 text-center text-xl" style={{ fontFamily: "Optima" }}>
                 We are good at solving problems, and our solutions are top rate.
                 Take the first step by contacting us. We are here to help
               </p>
@@ -197,7 +197,7 @@ export default function Page() {
               {loading && (
                 <div className=" ml-5 w-6 h-6 border-t-2 border-blue-600 border-solid animate-spin rounded-full"></div>
               )}
-              <button className="bg-[#395A68]  w-full sm:w-auto px-[20px] py-[8px] hover:bg-[#223740] transition-colors duration-300 font-semibold rounded-lg text-[#9aabb2]" style={{ fontFamily: "Optima" }}>
+              <button className="bg-[#395A68]  w-full sm:w-auto px-[20px] py-[8px] mb-10 hover:bg-[#223740] transition-colors duration-300 font-semibold rounded-lg text-[#9aabb2]" style={{ fontFamily: "Optima" }}>
                 Send message
               </button>
             </div>

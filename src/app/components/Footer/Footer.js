@@ -34,7 +34,7 @@ export default function Footer() {
   const legalLinks = ["/pages/contactme"];
 
   return (
-    <div id="footer" className="bg-[url('/assets/images/WebsiteBG.png')] opacity-80 bg-auto pt-0 lg:pt-0 2xl:pt-0 " >
+    <div id="footer" className="bg-[url('/assets/images/blankbackground.png')] opacity-80 bg-auto pt-0 lg:pt-0 2xl:pt-0 " >
       <div
         className="w-full max-w-[1140px] bg-[#79AFBA] rounded-xl px-[50px] sm:px-[64px] sm:py-[10px] m-auto"
         style={{ transform: "translate(0px, 70px)" }}

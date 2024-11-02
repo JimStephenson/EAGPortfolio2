@@ -9,7 +9,7 @@ export default function LandingSection() {
         <div
           id="home"
           style={{
-            backgroundImage: `url("/assets/images/EAGWebBackground.png")`,
+            backgroundImage: `url("/assets/images/blankbackground.png")`,
             backgroundSize: "cover",
             height: "100vh",
             width: "100vm",

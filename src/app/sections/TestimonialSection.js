@@ -5,7 +5,7 @@ import TestimonialComponent from "../components/TestimonialComponent/Testimonial
 export default function TestimonialSection() {
   return (
     <React.Fragment>
-      <div className="relative bg-[url('/assets/images/WebsiteBG.png')] opacity-80 bg-auto">
+      <div className="relative bg-[url('/assets/images/blankbackground.png')] opacity-80 bg-auto">
         <div id="testimonial">
           <TestimonialComponent />
         </div>

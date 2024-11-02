@@ -26,7 +26,7 @@ export default async function KnowledgeArticlePage({ params }) {
 
   return (
     <React.Fragment>
-      <div className="relative bg-[url('/assets/images/WebsiteBG.png')] bg-auto">
+      <div className="relative bg-[url('/assets/images/blankbackground.png')] bg-auto">
         <div className="flex flex-col items-center justify-center  pt-[50px] pb-[10px] mt-4">
           <div className=" w-[80%] bg-white items-center justify-center text-center">
             <div className="space-y-5 items-center justify-center">

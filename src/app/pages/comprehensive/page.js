@@ -4,9 +4,9 @@ export default function Page() {
   return (
     <React.Fragment>
       <div
-        className="bg-[#E0F3FD] pt-[250px] mt-4  pb-[100px] lg:pb-[600px] relative lg:h-[1000px]"
+        className=" pt-[250px] mt-4  pb-[100px] lg:pb-[600px] relative lg:h-[1000px]"
         style={{
-          backgroundImage: `url("/assets/images/WebsiteBG.png")`,
+          backgroundImage: `url("/assets/images/blankbackground.png")`,
           backgroundSize: "cover",
         }}
       >

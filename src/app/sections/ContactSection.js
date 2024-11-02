@@ -10,7 +10,7 @@ export default function ContactSection() {
         <div
           id="contact"
           style={{
-            backgroundImage: `url("/assets/images/EAGWebBackground.png")`,
+            backgroundImage: `url("/assets/images/blankbackground.png")`,
             backgroundSize: "cover",
             height: "100vh",
           }}

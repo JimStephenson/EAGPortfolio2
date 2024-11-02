@@ -9,7 +9,7 @@ export default async function Page() {
   return (
     <React.Fragment>
           <div   className=" pt-[20px] md:pt-[20px]   h-fit   relative ">
-          <div  className="relative bg-[url('/assets/images/WebsiteBG.png')] bg-auto" >
+          <div  className="relative bg-[url('/assets/images/blankbackground.png')] bg-auto" >
      
         <div className="flex flex-col items-center justify-between p-5 md:p-24 ">
       <section className=" pt-12">
